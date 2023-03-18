@@ -14,7 +14,17 @@ class _SignupState extends State<Signup> {
       appBar: AppBar(
         title: Text("Signup page"),
       ),
-      body: Center(child: Text("data")),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Text("Register your Account",
+                  style:
+                      TextStyle(fontSize: 30, backgroundColor: Colors.purple)),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

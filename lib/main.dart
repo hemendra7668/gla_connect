@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gla_connect/login.dart';
+import 'package:gla_connect/auth/login.dart';
 
 void main() {
   runApp(const MyApp());

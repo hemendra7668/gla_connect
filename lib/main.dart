@@ -4,10 +4,6 @@ import 'package:gla_connect/login.dart';
 void main() {
   runApp(const MyApp());
 
-  ///
-  ///
-
-  ///
 }
 
 class MyApp extends StatelessWidget {

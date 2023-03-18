@@ -3,6 +3,11 @@ import 'package:gla_connect/login.dart';
 
 void main() {
   runApp(const MyApp());
+
+  ///
+  ///
+
+  ///
 }
 
 class MyApp extends StatelessWidget {
@@ -11,9 +16,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: login(),
-    );
+    return MaterialApp();
        }
 }

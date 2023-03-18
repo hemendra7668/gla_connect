@@ -5,9 +5,16 @@ class login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Column(
-        children: [Text("Hello")],
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            SizedBox(
+              height: 30,
+            ),
+            // Image.asset("assets/images/")
+          ],
+        ),
       ),
     );
   }
